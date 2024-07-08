@@ -1,0 +1,33 @@
+{
+  "name": "chalet",
+  "version": "0.1.2",
+  "description": "Chalet provides a streamlined way to set up and manage development environments using containers. With Chalet, you can run all your development tools, languages, and applications in isolated containers, eliminating the need to install any languages or tools directly on your local machine.",
+  "main": "main.go",  "scripts": {
+    "start": "make run",
+    "init": "make init",
+    "exec": "make exec",
+    "build": "make build",
+    "move": "make move"
+  },
+  "bin": {
+    "chalet": "./dist/chalet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalet-dev/chalet.git"
+  },
+  "keywords": [
+    "docker",
+    "environment",
+    "tools",
+    "dev",
+    "developer-tools",
+    "containerization"
+  ],
+  "author": "Federico Pochat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chalet-dev/chalet/issues"
+  },
+  "homepage": "https://github.com/chalet-dev/chalet#readme"
+}
