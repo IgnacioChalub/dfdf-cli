@@ -9,6 +9,12 @@ in isolated containers, eliminating the need to install any languages or tools d
 * **Easy Setup** : Spin up development environments with a single command.
 * **Consistent Environments**: Ensure all team members are using the same development setup, reducing "it works on my machine" issues.
 * **Portable**: Easily share your development environment configurations with others.
+
+## Instalation
+
+```
+npm install -g chalet
+```
   
 ## Usage
 ```
