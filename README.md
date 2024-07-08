@@ -13,7 +13,7 @@ in isolated containers, eliminating the need to install any languages or tools d
 ## Instalation
 
 ```
-npm install -g chalet
+npm install -g <complete with package name>
 ```
   
 ## Usage
