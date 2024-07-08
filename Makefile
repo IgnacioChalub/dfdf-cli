@@ -1,6 +1,6 @@
 # Variables
 MAIN_GO := main.go
-OUTPUT_BINARY := chalet
+OUTPUT_BINARY := dist/chalet
 
 # Default target
 .PHONY: null
@@ -29,7 +29,7 @@ exec:
 build:
 	@go build -o $(OUTPUT_BINARY)
 
-# Removes chalet from DEST and mvoes new build
+# Removes chalet from DEST and moves new build
 # make move DEST=~/sandbox/express-dev-docker
 move:
-	rm -f $(DEST)/chalet && make build && mv -f chalet $(DEST)
+	rm -f $(DEST)/chalet && make build && mv -f dist/chalet $(DEST)
